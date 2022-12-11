@@ -14,7 +14,7 @@ export const Project2 = () => {
                 <Col xs={12} s={12} md={12} lg={12} xl={12} className="d-flex flex-column align-items-center justify-content-center">
                     <h1 className="text-center">Portfolio</h1>
                     <p className="text-center">This page contains the project summary of Portfolio which includes the project overview, tools used and live links to the project.</p>
-                    <Button><a href="https://localhost:3000" target="_blank" rel="noreferrer">Live Demo</a></Button>
+                    <Button><a href="https://tia-brimer.netlify.app/" target="_blank" rel="noreferrer">Live Demo</a></Button>
                 </Col>
             </Row>
         </Container>
@@ -38,7 +38,7 @@ export const Project2 = () => {
                     </Row>
                     <h2 className="mt-3 mb-3 pt-3 pb-3">See Live</h2>
                     <div className="d-flex flex-wrap">
-                    <Button className="m-2"><a href="https://localhost:3000" target="_blank" rel="noreferrer">Live Demo</a></Button>
+                    <Button className="m-2"><a href="https://tia-brimer.netlify.app/" target="_blank" rel="noreferrer">Live Demo</a></Button>
                     <Button className="m-2" onClick={() => navigate(-1)}>Go Back</Button>
                     </div>
                 </Col>
