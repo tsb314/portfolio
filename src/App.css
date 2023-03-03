@@ -286,6 +286,3 @@ a{
   color: #666;
 }
 
-.justify-content-xs-center, .justify-content-sm-center{
-transform: rotate(90deg);
-}

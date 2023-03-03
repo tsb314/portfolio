@@ -29,7 +29,7 @@ export const Project4 = () => {
                         <Col xs={12} s={12} md={4} lg={4} xl={4} className="d-flex flex-column align-items-center justify-content-center m-3">
                         <img src={bfProjectImg} alt="project before thumbnail" width="500px" height="500px"/>
                         </Col>
-                        <Col xs={12} s={12} md={2} lg={2} xl={2} className="d-flex flex-column align-items-center justify-content-xs-center justify-content-sm-center justify-content-center m-3">
+                        <Col xs={12} s={12} md={2} lg={2} xl={2} className="d-flex flex-column align-items-center justify-content-center m-3">
                         <img src={arrow} alt="arrow pointing right" width="150px" height="150px"/>
                         </Col>
                         <Col xs={12} s={12} md={4} lg={4} xl={4} className="d-flex flex-column align-items-center justify-content-center m-3">
