@@ -285,3 +285,7 @@ a{
   font-weight: 600;
   color: #666;
 }
+
+.justify-content-xs-center, .justify-content-sm-center{
+transform: rotate(90deg);
+}

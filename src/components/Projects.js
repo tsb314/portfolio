@@ -2,6 +2,7 @@ import { Container, Row, Col, Button } from "react-bootstrap"
 import projectImg1 from '../assets/imgs/full-mockup-cos-transformed.png'
 import projectImg2 from '../assets/imgs/full-portfolio-transformed.png'
 import projectImg3 from '../assets/imgs/full-best-steak-transformed.png'
+import projectImg4 from '../assets/imgs/full-pretty-on-purpose-transformed.png'
 import { Link } from "react-router-dom"
 
 export const Projects = () => {
@@ -42,6 +43,16 @@ export const Projects = () => {
                     <h4>Chef's Best Steakhouse</h4>
                     <p>Chef's Best Steakhouse is my recreation of the infamous Ruth's Chris Steakhouse. I was drawn to the simplicity of the website and thought it would make for a great project for basic front-end tools.</p>
                     <Button><Link to="/project3">Review project</Link></Button>
+                </Col>
+            </Row>
+            <Row className="mt-2 mb-2">
+                <Col xs={12} sm={12} md={6} lg={6} xl={6} className="d-flex justify-content-center align-items-center">
+                    <img src={projectImg4} alt="project thumbnail" layout="fill"/>
+                </Col>
+                <Col xs={12} sm={12} md={6} lg={6} xl={6} className="d-flex flex-column align-items-center align-items-sm-center align-items-md-start align-items-xl-start justify-content-center p-4">
+                    <h4>Pretty On Purpose</h4>
+                    <p>Pretty On Purpose is a cosmetology and hair extension business located in St. Louis that I was grateful to work for. In this project, I was asked to clean up the user interface for both mobile and website to enhance the customer experience.</p>
+                    <Button><Link to="/project4">Review project</Link></Button>
                 </Col>
             </Row>
         </Container>

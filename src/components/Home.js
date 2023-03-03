@@ -14,7 +14,7 @@ export const Home = () => {
                         <h1 className="text-center">Hi, I'm Tia Brimer</h1>
                         <p className="text-center">A front end web developer with a passion for making websites visually better.</p>
                         <div className="d-flex">
-                        <Button><a href="Tia Brimer Resume 2022.docx" download="Tia Brimer Resume 2022.docx">Download resume</a></Button>
+                        <Button><a href="Tia Brimer Resume 2023.pdf" download="Tia Brimer Resume 2023.pdf">Download resume</a></Button>
                         <Button><a href="#projects">Projects</a></Button>
                         </div>
                     </Col>
